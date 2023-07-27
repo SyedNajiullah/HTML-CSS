@@ -1,0 +1,240 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/* PAGE SECTIONS*/
+body {
+  color: black;
+  font-family: sans-serif;
+  border-top: 10px solid #1098ad;
+  position: relative;
+}
+.container {
+  width: 800px;
+  /* margin-left: auto;
+  margin-right: auto; */
+  margin: 0 auto;
+  /* position: relative; */
+}
+.main-header {
+  background-color: #f7f7f7;
+  /* padding: 20px;
+  padding-left: 40px;
+  padding-right: 40px; */
+  padding: 20px 40px;
+  margin-bottom: 60px;
+  /* height: 80px; */
+}
+nav {
+  font-size: 18px;
+  text-align: center;
+}
+article {
+  margin-bottom: 40px;
+}
+.post-header {
+  margin-bottom: 40px;
+  /* position: relative; */
+}
+aside {
+  background-color: #f7f7f7;
+  border-top: 5px solid #1098ad;
+  border-bottom: 5px solid #1098ad;
+  border-left: 5px solid #1098ad;
+  border-right: 5px solid #1098ad;
+  padding: 50px, 0px;
+  width: 500px;
+}
+
+/* SMALLER EEEMNTS*/
+
+h1,
+h2,
+h3 {
+  color: #1098ad;
+}
+
+h1 {
+  font-size: 26px;
+  text-transform: uppercase;
+  font-style: italic;
+}
+h2 {
+  font-size: 40px;
+  text-transform: uppercase;
+  font-style: italic;
+  margin-bottom: 30px;
+}
+h3 {
+  font-size: 30px;
+  margin-bottom: 20px;
+  margin-top: 40px;
+}
+h4 {
+  font-size: 20px;
+  text-transform: uppercase;
+  text-align: center;
+}
+p {
+  font-size: 22px;
+  line-height: 1.5;
+  margin-bottom: 50px;
+  /* display: inline; */
+}
+
+ul,
+ol {
+  margin-left: 50px;
+  margin-bottom: 20px;
+}
+
+li {
+  font-size: 20px;
+  margin-bottom: 10px;
+  /* display: inline; */
+}
+li:last-child {
+  margin-bottom: 0;
+}
+/* footer p {
+  font-size: 20px;
+} */
+/* article header p {
+  font-style: italic;
+} */
+#author {
+  font-style: italic;
+  font-size: 18px;
+}
+#copyright {
+  font: size 16px;
+}
+.related-author {
+  font-size: 18px;
+  font-weight: bold;
+}
+.related {
+  list-style: none;
+}
+/* .first-li {
+  font-weight: bold;
+} */
+li:first-child {
+  font-weight: bold;
+}
+li:last-child {
+  font-style: italic;
+}
+/* li:nth-child(odd) {
+  color: blue;
+} */
+/* Misconception (Will not work) */
+/* article p:first-child {
+  color: red;
+} */
+article p:last-child {
+  color: red;
+}
+/*STYLING LNKS*/
+/* a {
+  color: red;
+} */
+a:link {
+  color: #1089ad;
+  text-decoration: none;
+}
+a:visited {
+  /*color: #777;*/
+  color: #1089ad;
+}
+a:hover {
+  color: orangered;
+  font-weight: bold;
+  text-decoration: underline dotted orangered;
+}
+a:active {
+  background-color: #000;
+  font-style: italic;
+}
+/* LVHA */
+
+.post-image {
+  width: 100%;
+  height: auto;
+  /* margin: 100px;  */ /*will work*/
+}
+
+nav a:link {
+  /* background-color: orangered;
+  margin: 20px;
+  padding: 20px;
+
+  display: block; */
+  margin-right: 30px;
+  display: inline-block;
+  /*text-align: center;*/
+}
+button {
+  cursor: pointer;
+  font-size: 22px;
+  padding: 20px;
+  position: absolute;
+  /* top: 50px;
+  left: 50px; */
+  bottom: 50px;
+  right: 50px;
+}
+nav a :link:last-child {
+  margin-right: 0px;
+}
+
+h1::first-letter {
+  font-style: normal;
+  margin-right: 5px;
+}
+h2 {
+  position: relative;
+  /* background-color: orange; */
+}
+/* 
+h3 + p::first-line {
+  color: red;
+} */
+
+h2::after {
+  content: "TOP";
+  background-color: #ffe70e;
+  color: #000;
+  font-size: 16px;
+  font-weight: bold;
+  display: inline-block;
+  padding: 5px 10px;
+  position: absolute;
+  top: -10px;
+  right: -25px;
+}
+
+/* p::first-line {
+  color: red;
+} */
+
+/* h2::first-letter {
+  font-size: 80px;
+} */
+/*resolving conflict*/
+/* #copyright {
+  color: red;
+}
+.copyright {
+  color: blue;
+}
+.text {
+  color: yellow;
+}
+footer p {
+  color: green !important;
+} */
+/* nav a:link {
+  font-size: 18px;
+} */
