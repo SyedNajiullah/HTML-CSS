@@ -1,0 +1,146 @@
+/*universal selector*/
+
+* {
+  margin: 0;
+  padding: 0;
+}
+
+/*socials*/
+
+.social-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.header-socials-padd {
+  margin-top: 4rem;
+  margin-bottom: 2rem;
+}
+
+/*body*/
+body {
+  font-family: "Roboto", sans-serif;
+  background-image: url(pic/background-image.jpg);
+  background-size: cover;
+  background-position: center;
+  backdrop-filter: blur(10px);
+}
+
+h1,
+h4,
+ul,
+li,
+p,
+label,
+h2 {
+  color: #ffffff;
+}
+
+/*HEADER*/
+
+.header-image {
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.header-socials {
+  margin-left: 10rem;
+  margin-top: 5rem;
+}
+
+.name {
+  margin-top: 2rem;
+}
+
+.header-pic {
+  height: 20rem;
+  width: 20rem;
+  margin-left: 4rem;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border-radius: 50%;
+  border: 6px solid #fd7e14;
+}
+
+.header-info {
+  margin-top: 8rem;
+  margin-left: 3rem;
+}
+
+.header {
+  display: flex;
+}
+/*EDUCATION*/
+
+.education {
+  padding: 1rem 14rem;
+  background-color: #fd7e14;
+  border-radius: 40px;
+  margin-bottom: 4px;
+}
+
+.list-of-edu {
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.education-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.inner-list-of-edu {
+  margin-left: 2rem;
+}
+
+/*float display*/
+
+.float-display {
+  display: flex;
+  justify-content: space-between;
+}
+
+/*about me*/
+
+.about-me {
+  padding: 1rem 14rem;
+  background-color: #fd7e14;
+  border-radius: 40px;
+  margin-bottom: 4px;
+}
+
+.about-me-icon {
+  height: 2rem;
+  width: 2rem;
+}
+
+.about-me-list {
+  font-weight: bold;
+  margin-left: 2rem;
+  margin-top: 2rem;
+}
+
+.inner-about-me-list {
+  margin-left: 2rem;
+}
+
+/*a links*/
+a:link,
+a:visited {
+  cursor: pointer;
+  color: #228be6;
+}
+
+a:hover,
+a:active {
+  color: #e599f7;
+}
+
+/*shadows*/
+
+.shadows,
+.education-icon,
+.about-me-icon {
+  box-shadow: 0 20px 35px rgba(0, 0, 0, 0.2);
+}
