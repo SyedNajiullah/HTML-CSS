@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>lab-02</title>
+</head>
+<body>
+    <form action = "#" methord ="Post">
+        <center>
+            <div>
+                <label>Enter name here :</label>
+                <input type = "text" name = "fname" required = "" pattern="[A-Za-z]"/>
+            </div>
+            <div>
+                <label>Enter Email here :</label>
+                <input type = "email" name = "email" placeholder="Enter email here"/>
+            </div>
+            <div>
+                <label>Gender :</label>
+                <input type = "radio" value = "male" name = "gender"/>
+                <label>Male</label>
+                <input type = "radio" value = "female" name = "gender"/>
+                <label>Female</label>
+            </div>
+            <div>
+                <labeL>Feedback</labeL><br>
+                <textarea name = "feedback" rows="10" cols="20"></textarea>
+            </div>
+            <div>
+                <input type = "hidden" name = "my" value = "6" >
+            </div>
+            <div>
+                <label>City :</label>
+                <select name = "city">
+                    <option value = "">Please select</option>
+                    <option value = "LHR">Lahore</option>
+                    <option value = "ISL">Islamabad</option>
+                    <option value = "FSD">Faislabad</option>
+                </select>
+            </div>
+            <div>
+                <label>Subject</label>
+                <input type = "checkbox" name = "maths" value = "MATHS"/>
+                <label>Maths</label>
+                <input type = "checkbox" name = "sci" value = "SCIENCE" />
+                <label>Science</label>
+            </div>
+            <div>
+                <label>Enter ypur password here :</label>
+                <input type = "password" name = "pass" placeholder="Enter pass"/>
+            </div>
+            <div>
+                <label>Number :</label>
+                <input type="number" name = "num" min = "1" max = "100" />
+            </div>
+            <div>
+                <label>DATE: </label>
+                <input type="date" name = "d" >
+            </div>
+            <div>
+                <label>Choose file:</label>
+                <input type = "file" name = "f" />
+            </div>
+            <div>
+                <input type = "submit" value = "Submit"/>
+            </div>
+        </center>
+    </form>
+
+    <!--Tables-->
+
+    <h1>TABLE:</h6>
+
+    <table border="1">
+        <thead>
+            <tr>
+                <td>first Name</td>
+                <td>second Name</td>
+                <td>third Name</td>
+            </tr>
+        </thead>
+        <tbody>
+            <tr>
+                <td>safi</td>
+                <td>naji</td>
+                <td>hassan</td>
+            </tr>
+            <tr>
+                <td>sheraz</td>
+                <td>idreees</td>
+                <td>hamza</td>
+            </tr>
+            <tr>
+                <td>atif</td>
+                <td>asad</td>
+                <td>zeerak</td>
+            </tr>
+        </tbody>
+    </table>
+</body>
+</html>
